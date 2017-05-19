@@ -27,6 +27,12 @@ input, button {
   width: 20px;
 }
 
+.btn-primary {
+  background: #f6da17;
+  border: 1px solid black;
+  text-shadow: 1px 1px 0 #000;
+}
+
 #searchField {
   height: 34px;
   border-radius: 2.5px;
