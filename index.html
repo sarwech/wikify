@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Wikify - Find articles in a sleek interface</title>
+
+	<!-- Bootstrap and stylesheet -->
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" rel="stylesheet">
+
+	<link rel="stylesheet" href="index.css">
+
+	<!-- Description and SEO -->
+	<meta name="description" content="Weatherify - FreeCodeCamp Weather App">
+	<meta name="author" content="Sarwech Shar"></head>
+
+	<!-- Font Awesome - used for search icon -->
+	<script src="https://use.fontawesome.com/d3762e452d.js"></script>
+
+<body>
+	<div class="wrapper">
+	  <h1>wikify</h1>
+	  <div class="search">
+	    <input type="text" id="searchField" placeholder="Search wiki..."/>
+	    <button class="btn btn-danger" type="submit" onclick="getWiki()">
+	    	<i class="fa fa-search" aria-hidden="true"></i>
+	    </button>
+	    <a href="https://en.wikipedia.org/wiki/Special:Random" target="_blank"><button class="btn btn-primary" type="submit">?</button></a>
+	  </div>
+	  <ul id="results" class="results"></ul>
+	</div>
+
+	<!-- jQuery -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+	<script src="index.js"></script>
+</body>
+</html>
