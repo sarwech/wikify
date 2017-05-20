@@ -4,4 +4,4 @@
 
 Just a quick little side project done with FreeCodeCamp.
 
-Try the [http://wikify.scorpio.design](demo).
+Try the [demo](http://wikify.scorpio.design).
